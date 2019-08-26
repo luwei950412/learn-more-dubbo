@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="09536fce-083d-46e0-9a08-77141b5e7077" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_janeluo_ikanalyzer_2012_u6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__jakarta_regexp_jakarta_regexp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_smartcn_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_lucene_lucene_core_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_lucene_lucene_memory_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_lucene_lucene_queries_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_poi_poi_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/BulletScreenController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/CourseScoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/UserHeadFrameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/listener/MyHttpSessionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/utils/HdfsUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/utils/LuceneUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/utils/RecommendUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/qa/qaAnswerReplyList.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/qa/qaList.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/qa/qaReplyList.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/test/addtest.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/CourseScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/CourseUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/Schedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/CourseScoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/QaReplyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/QaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/ScheduleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/CourseScorePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/SchedulePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/CourseScoreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/QaReplyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/QaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/ScheduleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/CourseScoreServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/QaReplyServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/QaServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/ScheduleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/utils/BeanTransferCourseScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/utils/BeanTransferSchedule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/utils/BeanTransferUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/ConsumerLearnApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/ConsumerLearnApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/config/CommonInterceptorConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/ChapterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/ChapterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/FrontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/FrontController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/MycenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/MycenterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/SayHelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/java/com/sxdubbo/learn/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/consumers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/consumers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/admin/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/admin/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/admin/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/admin/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/admin/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/admin/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/css/flexslider.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/css/pricing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/fonts/bootstrap/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/fonts/bootstrap/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/fonts/bootstrap/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/fonts/bootstrap/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/fonts/bootstrap/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/img_bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/img_bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/img_bg_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/img_bg_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/person1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/person2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/person3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/project-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/project-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/project-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/project-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/project-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/project-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/project-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/project-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/project-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/school.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/staff-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/staff-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/staff-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/images/work_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/google_map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/jquery.countTo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/jquery.flexslider-min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/magnific-popup-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/modernizr-2.6.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/js/simplyCountdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/_bootstrap-compass.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/_bootstrap-mincer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/_bootstrap-sprockets.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_badges.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_breadcrumbs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_button-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_component-animations.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_dropdowns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_glyphicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_input-groups.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_modals.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_navs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_pager.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_popovers.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_progress-bars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_responsive-embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_responsive-utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_scaffolding.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_thumbnails.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/_wells.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_alerts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_center-block.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_hide-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_labels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_nav-vertical-align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_opacity.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_panels.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_progress-bar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_reset-filter.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_responsive-visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_tab-focus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_text-overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/bootstrap/mixins/_vendor-prefixes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/sass/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/admin/css/new.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/front/zhaoshanshan.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/bootstrap/bootstrap-overrides.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/bootstrap/bootstrap-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/bootstrap/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/code-editor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/calendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/chart-showcase.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/elements.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/form-showcase.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/form-wizard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/gallery.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/grids.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/new-user.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/personal-info.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/signup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/tables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/ui-elements.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/user-list.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/user-profile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/compiled/web-app-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/elements.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/lib/bootstrap-wysihtml5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/lib/bootstrap.datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/lib/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/lib/fullcalendar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/lib/fullcalendar.print.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/lib/jquery-ui-1.10.2.custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/lib/morris.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/lib/select2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/lib/uniform.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/css/new.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/font/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/font/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/font/fontawesome-webfont_2d2816fe.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/font/fontawesome-webfont_51500cb8.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/font/fontawesome-webfont_51500cb8.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/font/fontawesome-webfont_51500cb8.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/bgs/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/bgs/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/bgs/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/bgs/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/bgs/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/bgs/blueish.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/bgs/landscape.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/btn-attach.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/btn-setting.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/btn-shuffle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/btn-tool.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/contact-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/contact-img2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/contact-profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/gallery-preview.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/gallery1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/gallery2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/gallery3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/glyphicons-halflings-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/glyphicons-halflings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/ico-arrow-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/ico-gallery-edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/ico-gallery-trash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/ico-mail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/ico-phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/ico-table-delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/ico-table-edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/ico-table-new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/jquery-ui/slider-handler.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/jquery-ui/slider-handler2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/jquery-ui/ui-bg_gloss-wave_35_f6a828_500x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/jquery-ui/ui-bg_highlight-soft_100_eeeeee_1x100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/lens.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/multiply.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/new-gallery-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/no-img-gallery.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/personal-info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/select-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/select2/select2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/select2/select2x2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/select2/spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/skin-nav-bullets.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/table-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/uniform/bg-input-focus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/uniform/bg-input.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/img/uniform/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/bootstrap-wysihtml5-0.0.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/bootstrap.datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/fuelux.wizard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/fullcalendar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/jquery-latest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/jquery-ui-1.10.2.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/jquery.flot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/jquery.flot.resize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/jquery.flot.stack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/jquery.knob.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/jquery.uniform.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/morris.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/select2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/mycenter/js/wysihtml5-0.3.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/static/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/base/footer.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/base/footer.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/base/header.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/base/header.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/base/right_menu.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/base/right_menu.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/chapter/chapter_manage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/chapter/chapter_manage.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/course/course_list.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/course/course_list.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/user/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/user/common.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/user/lecture.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/user/lecture.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/user/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/user/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/user/user_view.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/user/user_view.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/video/video_manage.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/video/video_manage.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/front/index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/front/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/front/user/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/admin/qa/pageShow.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/base/header.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/community/community.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/course/favorite.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/course/recent.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/exam/score.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/moment/moment.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/profile/modify.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/profile/myprofile.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/question/myanswer.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/question/myfollow.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/question/myquestion.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/schedule/schedule.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/main/resources/templates/mycenter/setting/mysetting.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../consumer-learn/src/test/java/com/sxdubbo/learn/ConsumerLearnApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../consumer-learn/src/test/java/com/sxdubbo/learn/ConsumerLearnApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/BulletScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/BulletScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/SysPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/UserCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/UserCourse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/UserVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/UserVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/domain/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/BulletScreenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/BulletScreenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/UserCourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/UserCourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/UserVideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/UserVideoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sxdubboapi/learn/service/VideoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/domain/BulletScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/domain/Chapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/domain/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/domain/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/domain/UserCourse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/domain/UserVideo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/domain/Video.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/service/BulletScreenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/service/ChapterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/service/CourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/service/RedisService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/service/UserCourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/service/UserVideoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/sxdubboapi/learn/service/VideoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/provider-api-learn-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.sxdubboapi.learn.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.sxdubboapi.learn.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/sxdubboapi/learn/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/BulletScreenPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/BulletScreenPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/CommentPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/CommentPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/CoursePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/CoursePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/SysPermissionPO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/SysRolePO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/UserCoursePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/UserCoursePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/UserPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/UserPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/UserVideoPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/UserVideoPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/VideoPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/domain/VideoPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/BulletScreenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/BulletScreenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/CommentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/CommentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/UserCourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/UserCourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/UserVideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/UserVideoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/VideoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/repository/VideoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/BulletScreenServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/BulletScreenServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/UserCourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/UserCourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/UserVideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/UserVideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/java/com/sxdubbo/learn/service/impl/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/main/resources/providers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/main/resources/providers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../provider-learn/src/test/java/com/sxdubbo/learn/ProviderLearnApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../provider-learn/src/test/java/com/sxdubbo/learn/ProviderLearnApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\lu.wei\.m2\repository" />
+        <option name="mavenHome" value="F:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1PV3C9i194PR6KSCAn0iVRRuQbr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="09536fce-083d-46e0-9a08-77141b5e7077" name="Default Changelist" comment="" />
+      <created>1542333487340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542333487340</updated>
+      <workItem from="1542333490402" duration="3156000" />
+      <workItem from="1542898866657" duration="72000" />
+      <workItem from="1553327265791" duration="1070000" />
+      <workItem from="1553331920219" duration="31000" />
+      <workItem from="1553343473658" duration="13000" />
+      <workItem from="1553352456295" duration="15000" />
+      <workItem from="1557655335891" duration="1269000" />
+      <workItem from="1564364871822" duration="3756000" />
+      <workItem from="1565945308445" duration="1559000" />
+      <workItem from="1566182210374" duration="2743000" />
+      <workItem from="1566286733228" duration="1607000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

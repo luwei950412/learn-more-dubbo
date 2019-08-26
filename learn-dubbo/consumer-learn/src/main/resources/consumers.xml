@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <!-- 配置可参考 http://dubbo.io/User+Guide-zh.htm -->
+    <!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
+    <dubbo:application name="dubbo-consumer" owner="dubbo-consumer"/>
+    <!-- 定义 zookeeper 注册中心地址及协议 -->
+    <dubbo:registry protocol="zookeeper" address="127.0.0.1:2181" client="zkclient"/>
+<!--    <dubbo:registry protocol="zookeeper" address="109.123.100.253:12181,109.123.100.252:12181,109.123.100.254:12181,109.123.100.153:12181" client="zkclient"/>-->
+    <!-- 生成远程服务代理，可以和本地 bean 一样使用 testService -->
+    <dubbo:reference id="userService" interface="com.sxdubboapi.learn.service.UserService"/>
+    <dubbo:reference id="courseService" interface="com.sxdubboapi.learn.service.CourseService"/>
+    <dubbo:reference id="chapterService" interface="com.sxdubboapi.learn.service.ChapterService"/>
+    <dubbo:reference id="videoService" interface="com.sxdubboapi.learn.service.VideoService"/>
+    <dubbo:reference id="commentService" interface="com.sxdubboapi.learn.service.CommentService"/>
+    <dubbo:reference id="redisService" interface="com.sxdubboapi.learn.service.RedisService"/>
+    <dubbo:reference id="userVideoService" interface="com.sxdubboapi.learn.service.UserVideoService"/>
+    <dubbo:reference id="userCourseService" interface="com.sxdubboapi.learn.service.UserCourseService"/>
+
+    <dubbo:reference id="choiceQuestionService" interface="com.sxdubboapi.learn.service.ChoiceQuestionService"/>
+    <dubbo:reference id="tOrFQuestionService" interface="com.sxdubboapi.learn.service.TOrFQuestionService"/>
+    <dubbo:reference id="testPaperService" interface="com.sxdubboapi.learn.service.TestPaperService"/>
+    <dubbo:reference id="userTestService" interface="com.sxdubboapi.learn.service.UserTestService"/>
+    <dubbo:reference id="qaService" interface="com.sxdubboapi.learn.service.QaService"/>
+    <dubbo:reference id="qaReplyService" interface="com.sxdubboapi.learn.service.QaReplyService"/>
+    <dubbo:reference id="followService" interface="com.sxdubboapi.learn.service.FollowService"/>
+    <dubbo:reference id="creditsService" interface="com.sxdubboapi.learn.service.CreditsService"/>
+    <dubbo:reference id="headFrameService" interface="com.sxdubboapi.learn.service.HeadFrameService"/>
+    <dubbo:reference id="userHeadFrameService" interface="com.sxdubboapi.learn.service.UserHeadFrameService"/>
+    <dubbo:reference id="signService" interface="com.sxdubboapi.learn.service.SignService"/>
+    <dubbo:reference id="bulletScreenService" interface="com.sxdubboapi.learn.service.BulletScreenService"/>
+    <dubbo:reference id="courseScoreService" interface="com.sxdubboapi.learn.service.CourseScoreService"/>
+    <dubbo:reference id="scheduleService" interface="com.sxdubboapi.learn.service.ScheduleService"/>
+    <dubbo:reference id="logService" interface="com.sxdubboapi.learn.service.LogService"/>
+</beans>
